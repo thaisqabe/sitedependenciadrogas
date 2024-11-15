@@ -6,6 +6,40 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+
+
+
+const openModalBtn = document.getElementById('openModal');
+const modal = document.getElementById('alcoholModal');
+const closeBtn = document.querySelector('.close');
+const modalContent = document.querySelector('.modal-content');
+
+openModalBtn.onclick = function() {
+  modalContent.classList.add('shake', 'blur-shake');
+};
+
+closeBtn.onclick = function() {
+  modalContent.classList.remove('shake', 'blur-shake');
+};
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modalContent.classList.remove('shake', 'blur-shake');
+  }
+};
+
+
+
 (function() {
   "use strict";
 

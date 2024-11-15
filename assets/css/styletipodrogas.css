@@ -1,0 +1,33 @@
+.accordiontd{
+    padding: 2% 0% 2%;
+}
+
+
+
+.imgbeb{
+    width: 80%;
+}
+
+@media (max-width: 760px){
+    .imgbeb{
+        display: none;
+    }
+}
+
+
+@keyframes shake {
+    0%, 100% { transform: translate(0, 0); }
+    20%, 80% { transform: translate(-2px, 0); }
+    40%, 60% { transform: translate(2px, -2px); }
+  }
+
+
+@keyframes blurShake {
+    0% { filter: blur(0px); transform: translate(0, 0); }
+    50% { filter: blur(4px); transform: translate(4px, -4px); }
+    100% { filter: blur(0px); transform: translate(-4px, 4px); }
+}
+  
+.effect {
+    animation: shake 0.5s infinite linear, blur 1s infinite ease-in-out;
+  }
