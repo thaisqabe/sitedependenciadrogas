@@ -1,20 +1,113 @@
+.breadcumb-area{
+  background-image: url('../images/bannertdrogas.png');
+}
+
 .accordiontd{
     padding: 2% 0% 2%;
 }
 
 
 
-.imgbeb{
+.imgdrogas{
     width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    margin-right: 10%;
+    margin-left: 10%;
+
 }
 
 @media (max-width: 760px){
-    .imgbeb{
-        display: none;
-    }
+  .imgdrogas{
+      display: none;
+  }
+}
+
+/* tooltip */
+.custom-tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Tooltip oculto por padrão */
+.custom-tooltip::before {
+  content: attr(data-tooltip); /* Texto do tooltip */
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 5%;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 10;
+
+  /* Ajuste de posição para cima */
+  bottom: 110%; /* Posiciona o tooltip acima */
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+}
+
+/* Seta do tooltip */
+.custom-tooltip::after {
+  content: '';
+  position: absolute;
+  width: 1%;
+  height: 0;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #333 transparent transparent transparent;
+  top: 0%; /* Posição da seta */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+/* Exibe o tooltip ao passar o mouse */
+.custom-tooltip:hover::before,
+.custom-tooltip:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+@media (max-width: 1700px) {
+  .custom-tooltip::before, .custom-tooltip::after {
+      display: none;
+  }
 }
 
 
+.botaomodal{
+    color: #FFFFFF;
+    background-color: #0c5adb;
+    margin: 12px 0px 0px 0px;
+    padding: 10px 30px 10px 30px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .5s;
+}
+
+.botaomodal:hover{
+    background-color: #053177;
+}
+
+
+.imgmodaldr{
+  border-radius: 8px;
+}
+
+/* efeitos alcool */
 @keyframes shake {
     0%, 100% { transform: translate(0, 0); }
     20%, 80% { transform: translate(-2px, 0); }
@@ -22,12 +115,177 @@
   }
 
 
-@keyframes blurShake {
-    0% { filter: blur(0px); transform: translate(0, 0); }
-    50% { filter: blur(4px); transform: translate(4px, -4px); }
-    100% { filter: blur(0px); transform: translate(-4px, 4px); }
+@keyframes blur {
+    0% { filter: blur(0px); }
+    50% { filter: blur(4px);  }
+    100% { filter: blur(0px); }
 }
   
 .effect {
-    animation: shake 0.5s infinite linear, blur 1s infinite ease-in-out;
+    animation: shake 0.8s infinite linear, blur 1.4s infinite ease-in-out;
   }
+
+
+
+
+
+  @media (max-width: 767px) {
+    .accordionresp {
+        padding-top: 1%; 
+    }
+}
+
+.plinktdroga{
+    margin-bottom: 2%;
+    margin-top: 0.5%;
+}
+
+
+
+
+
+/* Efeitos */
+
+  
+  /* Animações */
+@keyframes blurEffect {
+    0%, 100% {
+        filter: blur(0px);
+    }
+    50% {
+        filter: blur(1px);
+    }
+  }
+  
+@keyframes waveEffect {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+@keyframes colorEffect {
+    0% {
+      background-color: rgba(255, 166, 0, 0.568);
+    }
+    50% {
+      background-color: rgba(50, 205, 50, 0.527);
+    }
+    100% {
+      background-color: rgba(128, 0, 128, 0.541);
+    }
+  }
+
+
+.effect2 {
+    animation: blurEffect 0.8s infinite linear, waveEffect 1.4s infinite ease-in-out, colorEffect 1.2s infinite ease-in-out;
+  }
+
+
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.08);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes flashEffect {
+    0%, 100% {
+      background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro */
+    }
+    50% {
+      background-color: rgba(255, 255, 255, 0.6); /* Fundo brilhante */
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+.effect3{
+  animation: flashEffect 1.5s infinite linear, fadeIn 1s infinite ease-in-out, pulse 1s infinite ease-in-out
+}
+
+
+/* Animação de Cores Pulsantes */
+@keyframes colorPulse {
+  0%, 100% {
+    filter: brightness(0.8);
+  }
+  50% {
+    filter: brightness(1.5);
+  }
+}
+
+/* Animação de Tremor */
+@keyframes shakecoca {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(-3px, 3px); }
+  50% { transform: translate(3px, -3px); }
+  75% { transform: translate(-3px, -3px); }
+}
+
+.effect4{
+  animation: colorPulse 1s infinite, shakecoca 0.5s infinite;
+}
+
+
+@keyframes contentShake {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(-2px, 2px); }
+  50% { transform: translate(2px, -2px); }
+  75% { transform: translate(-2px, -2px); }
+}
+
+/* Flash no fundo */
+@keyframes flashBackground {
+  0%, 100% { background: rgba(255, 0, 0, 0.2); }
+  50% { background: rgba(255, 255, 255, 0.5); }
+}
+
+.effect5{
+  animation: contentShake 1s infinite, flashBackground 0.3s infinite, blur 1s infinite;
+}
+
+/* Animação de Lentidão */
+@keyframes contentSlow {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.05); opacity: 0.8; }
+}
+
+/* Animação de Desfoque */
+@keyframes overlayBlur {
+  0% { backdrop-filter: blur(0px); }
+  50% { backdrop-filter: blur(8px); }
+  100% { backdrop-filter: blur(0px); }
+}
+
+.effect6{
+  animation: contentSlow 3s infinite alternate ease-in-out,  overlayBlur 3s infinite, blur 2s infinite;
+}

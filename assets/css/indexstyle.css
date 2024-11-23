@@ -1,0 +1,8 @@
+.imginteg{
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+.imginteg:hover{
+    filter: grayscale(0);
+}

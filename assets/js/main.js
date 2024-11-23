@@ -7,8 +7,7 @@
 */
 
 
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
 
 const myModal = document.getElementById('myModal')
 const myInput = document.getElementById('myInput')
@@ -37,6 +36,17 @@ window.onclick = function(event) {
     modalContent.classList.remove('shake', 'blur-shake');
   }
 };
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('#meuTooltip'));
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+});
+
+const tooltipTriggerList = document.querySelectorAll('#meuTooltip')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 
 
@@ -217,3 +227,5 @@ window.onclick = function(event) {
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
