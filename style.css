@@ -10698,7 +10698,7 @@ p.form-messege{
      transition:.5s;
      z-index:1;
 }
- .witr_single_pslide:hover .witr_pslide_image img, .witr_single_pslide:hover .witr_pslide_image::before{
+.witr_single_pslide:hover .witr_pslide_image img, .witr_single_pslide:hover .witr_pslide_image::before{ 
      transform: scale(1.2);
 }
  .witr_pslide .witr_pslide_custom {
