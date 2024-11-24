@@ -1,0 +1,58 @@
+.breadcumb-area{
+   background-image: url('../images/bannerdrogas.jpg')
+}
+
+.oqedrogas{
+    padding: 38px 45px 45px;
+    box-shadow: 0 3px 19px rgb(0 0 0 / 8%);
+    border-radius: 0 0 10px 10px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.drogasmargin1{
+    padding: 100px 0px 5px;
+    background-color: #ffffff;    
+}
+
+.drogasmargin{
+    padding: 5px 0px 5px;
+    background-color: #ffffff;    
+}
+
+blockquote{
+    border-left: 3px solid #0c5adb;
+}
+
+.row>*{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.margin_p_bibliofrafia{
+    margin-bottom: 0rem;    
+}
+
+.pfrase{
+    font-size: 1px;
+}
+
+/*css footer*/
+.widget > p{
+    color: #fff;
+}
+
+.contato{
+    color: #fff;
+}
+
+.witrfm_area {
+    background-image: none;
+}
