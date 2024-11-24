@@ -1,3 +1,9 @@
+
+.titulo{
+  color: #fff;
+  text-transform: uppercase;
+}
+
 .hero-waves {
     display: block;
     width: 100%;
@@ -157,3 +163,18 @@
 .witrfm_area {
     background-image: none;
 }
+.footer-middle{
+  padding-bottom: 0;
+}
+.listas-container {
+  display: flex; /* Coloca os elementos lado a lado */
+  gap: 8%; /* Espaço entre as listas */
+}
+
+@media (max-width: 768px) {
+  .listas-container {
+      flex-direction: column; /* Empilha as listas verticalmente em telas menores */
+      align-items: center; /* Centraliza as listas */
+  }
+}
+

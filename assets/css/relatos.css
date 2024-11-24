@@ -1,0 +1,68 @@
+
+
+.col-md-8{
+    width: 100%;
+}
+
+.dp{
+    width: 100%;
+}
+
+.RELATOS{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.relatos{
+   margin-left: 10%;
+   margin-right:10% ;
+   height: 10%;
+}
+
+.secrel{
+    
+    background-color: rgb(233, 228, 228);
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.button{
+
+    padding: 1%;
+    margin-top: 5%;
+}
+
+
+.accordion_area{
+    margin-top: 17%;
+}
+
+.breadcumb-area{
+    background-image: url("../imgs_relatos/vista-lateral-amigos-latinos-saindo_23-2151139417.jpg")
+}
+
+.borda{
+    box-sizing: border-box;
+    border-color: black;
+   
+}
+
+.widget > p{
+    color: #fff;
+}
+
+.contato{
+    color: #fff;
+}
+
+.witrfm_area {
+    background-image: none;
+}
+
+.el{
+    background-color: rgb(233, 228, 228);
+    padding: 1%;
+    padding-top: 5%;
+    padding-bottom:5% ;
+}
+

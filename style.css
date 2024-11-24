@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* === theme style   ==== */
 
+paleta{
+    color: #34623f;
+    color: #1e2f23;
+    color: #192bc2;
+
+}
+
+
 a{
      color: #17161a;
      transition: .5s;
@@ -8,7 +16,7 @@ a{
 }
  a:hover {
      text-decoration: none;
-     color:#0c5adb;
+     color:#192bc2;
 }
  body {
      color: #777777;
@@ -29,7 +37,7 @@ a{
      font-weight: 700;
      transition: .5s;
      font-size:21px;
-     color: #FAA80F;
+     color: #20af41;
      margin: 0 0 10px;
      text-transform: uppercase;
      transition: .5s;
@@ -65,7 +73,7 @@ p.form-messege{
      position: relative;
 }
  .progress-bar {
-     background-color: #0c5adb;
+     background-color: #192bc2;
 }
  .witr_progress-style2.progress {
     box-shadow: none;
@@ -289,7 +297,7 @@ p.form-messege{
  .defaultsearch input::-ms-input-placeholder, .defaultsearch input::-webkit-placeholder, .defaultsearch input::-moz-placeholder {
 }
  .defaultsearch button {
-     background: #0c5adb;
+     background: #192bc2;
      border: 0 none;
      color: #fff;
      font-size: 18px;
@@ -313,7 +321,7 @@ p.form-messege{
  .widget {
 }
  .blog-left-side .widget h2 {
-     border-bottom: 5px double #0c5adb;
+     border-bottom: 5px double #192bc2;
      display: inline-block;
      line-height: 17px;
      margin-bottom: 20px;
@@ -325,7 +333,7 @@ p.form-messege{
      position: absolute;
      top: 50%;
      transform: translateY(-50%);
-     border: 6px solid #0c5adb;
+     border: 6px solid #192bc2;
      border-radius: 50%;
      animation-duration: 3s;
      animation-timing-function: linear;
@@ -372,7 +380,7 @@ p.form-messege{
  .blog-left-side .widget ul li a {
 }
  .blog-left-side .widget ul li a:hover, .blog-left-side .widget ul li:hover::before{
-     color: #0c5adb;
+     color: #192bc2;
 }
  .blog-left-side .widget ul li::before {
      content: "\f105";
@@ -415,10 +423,10 @@ p.form-messege{
      text-transform: capitalize;
 }
  .widget_categories ul li:hover:before, .widget_archive ul li:hover:before, .widget_categories ul li a:hover, .widget_archive ul li a:hover, .tagcloud a:hover, .r-post-content h3:hover, .r-post-content h3 a:hover {
-     color: #0c5adb;
+     color: #192bc2;
 }
  .tagcloud a:hover {
-     background: #0c5adb;
+     background: #192bc2;
      color: #fff;
 }
  #wp-calendar caption {
@@ -460,7 +468,7 @@ p.form-messege{
 }
  table#wp-calendar td#today{
      color:#fff ;
-     background-color:#0c5adb ;
+     background-color:#192bc2 ;
 }
  table#wp-calendar td#today a{
      color:#fff;
@@ -495,7 +503,7 @@ p.form-messege{
 }
 /* THEME UNIT TEST CSS */
  .tag-sticky-2 .solutech-single-blog{
-     border:1px solid #0c5adb;
+     border:1px solid #192bc2;
 }
  .post_reply ul, .blog-content ul, .single-blog-content ul {
      list-style-type: disc;
@@ -655,7 +663,7 @@ p.form-messege{
      overflow: hidden;
 }
  .witr_btn {
-     background: #0c5adb;
+     background: #118d2e;
      border-radius: 30px;
      color: #fff;
      display: inline-block;
@@ -680,7 +688,7 @@ p.form-messege{
 /* button default br style */
  .witr_bbtn{
      border-radius: 30px;
-     color: #0c5adb;
+     color: #192bc2;
      display: inline-block;
      font-size: 18px;
      font-weight: 500;
@@ -691,7 +699,7 @@ p.form-messege{
      margin-right: 20px;
      z-index:2;
      transition: 1s;
-     border:2px solid #0c5adb;
+     border:2px solid #192bc2;
 }
 /* video button i */
  .witr_bbtn i {
@@ -726,7 +734,7 @@ p.form-messege{
      transition: .5s;
 }
  .a_active i{
-     color:#0c5adb;
+     color:#192bc2;
 }
  .witr_btn:hover .a_active i, .witr_bbtn:hover .a_active i{
      color: #fff;
@@ -738,7 +746,7 @@ p.form-messege{
 /*button css*/
  .witr_butn {
      padding: 0px 50px;
-     border: 1px solid #0c5adb;
+     border: 1px solid #192bc2;
      position: relative;
      color:#fff;
      transition:.5s;
@@ -752,7 +760,7 @@ p.form-messege{
      font-size: 16px;
      font-weight: 500;
      margin-right: 10px;
-     background: #0c5adb;
+     background: #192bc2;
 }
  .witr_butn:hover {
      color: #fff;
@@ -784,13 +792,13 @@ p.form-messege{
      text-align: center;
      border-radius: 50%;
      line-height: 80px;
-     background: #0c5adb;
+     background: #192bc2;
      display:inline-block;
      transition: .5s;
 }
  .width_height_link_02 .sub-item i, .width_height_link_0.sub-item i{
      font-size: 50px;
-     color: #0c5adb;
+     color: #192bc2;
      height: auto;
      width: auto;
      border-radius: initial;
@@ -815,7 +823,7 @@ p.form-messege{
      display: inline-block;
 }
  .feature_btn a:hover{
-     color:#0c5adb;
+     color:#192bc2;
 }
 /*====== home page 2 ======*/
  .sub-border-2 {
@@ -837,9 +845,9 @@ p.form-messege{
  .sub-item.sub-item-3 i {
      height: 80px;
      width: 80px;
-     color: #0c5adb;
+     color: #192bc2;
      line-height: 78px;
-     border: 2px solid #0c5adb;
+     border: 2px solid #192bc2;
      background: none;
      transition: .5s;
      display:inline-block;
@@ -849,7 +857,7 @@ p.form-messege{
 }
  .sub-item.sub-item-3:hover i {
      color: #fff;
-     background:#0c5adb;
+     background:#192bc2;
 }
  .sub-item-3.sub-item h3 {
      padding-bottom: 8px;
@@ -859,13 +867,13 @@ p.form-messege{
  .sub-item.sub-item-6 i {
      border-radius: 30% 70% 70% 30% / 50% 50% 50% 50%;
      background: #f7f8ff;
-     color: #0c5adb ;
+     color: #192bc2 ;
      transition: .5s;
      display:inline-block;
 }
  .sub-item.sub-item-6:hover i {
      color: #fff;
-     background: #0c5adb;
+     background: #192bc2;
 }
 /*====== home page 8 ======*/
  .sub-item.sub-item-8 {
@@ -1007,7 +1015,7 @@ p.form-messege{
      z-index: -1;
 }
  .witr_feature_back_3d {
-     background: #0c5adb;
+     background: #192bc2;
      background-position: center center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -1059,7 +1067,7 @@ p.form-messege{
      height: 100%;
      text-align: center;
      padding: 0px 30px;
-     background: #0c5adbd9;
+     background: #192bc2;
      transition:.5s;
 }
  .witr_slug_feature:hover .witr_feture_back_con_slugf{
@@ -1072,7 +1080,7 @@ p.form-messege{
 }
  .witr_slug_front_contentf {
      display: flex;
-     background: #0c5adbd9;
+     background: #192bc2;
      position: absolute;
      left: 0px;
      bottom: 0px;
@@ -1115,7 +1123,7 @@ p.form-messege{
  .witr_feature_btn_f a {
      color: #fff;
      background: #fff;
-     color: #0c5adb;
+     color: #192bc2;
      padding: 8px 21px;
      border-radius: 30px;
      margin-top: 10px;
@@ -1123,7 +1131,7 @@ p.form-messege{
 }
  .witr_feature_btn_f a:hover{
      color:#fff;
-     background:#0c5adb;
+     background:#192bc2;
 }
 /*=========================== feature cursor css ===========================*/
  .all_feature_color.ca_ferture_7 {
@@ -1154,7 +1162,7 @@ p.form-messege{
      right: 0;
      content: "";
      width: 58%;
-     border: 20px solid #0c5adb;
+     border: 20px solid #192bc2;
      border-left-color: transparent;
      z-index: -1;
      margin: auto;
@@ -1186,13 +1194,13 @@ p.form-messege{
 }
  .witr_cfeature9 .sub-item i{
      position:relative;
-     color: #0c5adb;
+     color: #192bc2;
      background: #fff;
      transition:.5s;
 }
  .witr_cfeature9 .sub-item:hover i{
      color: #fff;
-     background: #0c5adb;
+     background: #192bc2;
 }
  .witr_cfeature9 .sub-item i::after{
      position: absolute;
@@ -1201,7 +1209,7 @@ p.form-messege{
      width: 80px;
      left: 0;
      border-radius: 50%;
-     background: #0c5adb;
+     background: #192bc2;
      z-index: -1;
      top: -6px;
      transition:.5s;
@@ -6640,31 +6648,32 @@ p.form-messege{
  .witr_apartment_form form select, .witr_apartment_form input{
      width: 100%;
      height: 45px;
-     color: #888888;
-     border-radius: 5px;
-     border: none;
+     color: #555555;
+     border-radius: 8px;
+     border: 1px solid #e5e5e5;;
      outline: none;
      margin-bottom: 20px;
      text-align: left;
+     background-color: #00247E;
 }
  .witr_apartment_form textarea{
      margin-bottom: 20px;
      text-align: left;
 }
  .witr_apartment_form input::-moz-placeholder{
-     color: #888888 ;
+     color: #555555 ;
      opacity: 1;
 }
  .witr_apartment_form input::-ms-input-placeholder{
-     color: #888888 ;
+     color: #555555 ;
      opacity: 1;
 }
  .witr_apartment_form input::-webkit-input-placeholder{
-     color: #888888;
+     color: #555555;
      opacity: 1;
 }
  .witr_apartment_form select::-webkit-input-placeholder, .witr_apartment_form textarea::-webkit-input-placeholder{
-     color: #888888;
+     color: #555555;
      opacity: 1;
 }
  .witr_apartment_form .const_btn{
@@ -7769,7 +7778,7 @@ p.form-messege{
      font-size: 17px;
      margin-left: 20px;
      font-weight: 500;
-     background-color: #0c5adb;
+     background-color: #118d2e;
      border-radius: 30px;
      color: #fff;
      padding: 13px 25px;
@@ -10157,13 +10166,15 @@ p.form-messege{
 }
 /* responsive 320 end */
  .btn {
-     background-color: #0c5adb;
+     background-color: #118d2e;
      border: 0 none;
      color: #fff;
      display: inline-block;
      font-weight: 600;
      padding: 15px 30px;
 }
+
+
  .btn-lg {
      font-size: 16px;
      padding: 20px 50px;
@@ -10199,7 +10210,7 @@ p.form-messege{
      left: 2px;
 }
  .btn:hover, .btn:focus {
-     background-color: #0c5adb;
+     background-color: #1a612f;
      color: #fff;
 }
  .btn.btn-bordered:hover {
@@ -10207,7 +10218,7 @@ p.form-messege{
      color: #fff;
 }
  .btn:active {
-     background-color: #AC2925;
+     background-color: ##118d2e;
 }
  .button-group {
      margin-top: 30px;
@@ -11328,7 +11339,7 @@ p.form-messege{
      color:#0c5adb;
 }
  a.dtbtn:hover, .witr_btn:hover, .solutech_button a:hover{
-     background:#0c5adb;
+     background: #118d2e;
 }
  a.dtbtn::before, .witr_btn::before, .witr_bbtn::before, .solutech_button a::before, .witr_sbtn_s8 a::before {
      transition: 0.5s;
@@ -11338,7 +11349,7 @@ p.form-messege{
      content: "";
      bottom: 0;
      left: -38px;
-     background:#00247e;
+     background:#1a612f;
      z-index: -1;
      border-radius:50px;
 }
@@ -11602,7 +11613,7 @@ p.form-messege{
      top: 0px;
      width:100%;
      height:100%;
-     background:#0c5adb80;
+     background:#118d2ea8;
 }
  .testi_top{
      margin-top:50px;
@@ -12438,17 +12449,18 @@ p.form-messege{
      padding:93px 0px 100px;
 }
  .apartment_area .witr_apartment_form form select, .apartment_area .witr_apartment_form input {
-     background:#0c5adb;
+     background: white;
      padding-left: 30px;
-     color:#fff;
+     color:#555555;
 }
  .apartment_area .witr_apartment_form textarea {
      height: 150px;
      width: 100%;
-     background:#0c5adb;
-     border: none;
+     background:white;
+     border: 1px solid #e5e5e5;     
      padding-left: 30px;
      line-height: 43px;
+    border-radius: 8px;
 }
  .apartment_area {
      text-align: center;
@@ -12458,15 +12470,15 @@ p.form-messege{
      width: 100%;
 }
  .apartment_area .btn:hover {
-     background:#333333;
+     background:#1a612f;
 }
 .apartment_area .witr_apartment_form textarea,
  .apartment_area .form-group input::-webkit-input-placeholder{
-     color: #fff ;
+     color: #555555 ;
 }
 .apartment_area .witr_apartment_form textarea,
  .apartment_area .form-group textarea::-webkit-input-placeholder{
-     color: #fff ;
+     color: #555555 ;
 }
  .solutech_contact3_area .service-item.all_color_service {
      padding: 23px 0px 23px 0px;
