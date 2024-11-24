@@ -1,12 +1,43 @@
 .breadcumb-area{
-    background-image: url("https://unisagrado.edu.br/custom/2008/uploads/cursos_extensao/topo-elaboracao-projetos-sociais.jpg")
+    background-image: url("https://img.freepik.com/fotos-gratis/correntes-de-papel-coloridas-ainda-vida_23-2149254025.jpg?t=st=1732482017~exp=1732485617~hmac=117fe9c3202b0874b26b20458d021e67820f2519f88a3adab5c73ec2ffa202a3&w=1060")
 }
 
 .juntos{
-    background-image: url("https://osceia.org.br/wp-content/uploads/2018/08/IMG_2101.jpg")
+    background-image: url("https://img.freepik.com/fotos-premium/vista-traseira-do-grupo-de-alunos_171337-80487.jpg?w=1060");
+
 }
 
 .heloisa{
-    background-image: url("https://www.bing.com/images/blob?bcid=suyr57lhl8AHJAf");
+    background-image: url("https://img.freepik.com/fotos-gratis/empresarios-e-mulheres-de-negocios-asiaticos-se-reunindo-para-debater-ideias-sobre-o-aplicativo-de-planejamento-de-web-design-criativo-e-desenvolver-um-layout-de-modelo-para-projeto-de-telefone-celular-trabalhando-juntos-em-um-pequeno-escritorio_7861-2682.jpg?t=st=1732482642~exp=1732486242~hmac=562257e817d4465a0a1ecc1b6ce2488df8ff552a9da503f4af5c213722f8afbb&w=1380");
 
+}
+
+.pronasci{
+    background-image: url("https://img.freepik.com/fotos-gratis/foto-recortada-da-equipe-de-jovens-amigos-multietnicas_171337-18230.jpg?t=st=1732481837~exp=1732485437~hmac=f57c40bbd0549f11a29e1a5afb5ad0b82c39f64baf693fdb9d56ad582482393f&w=1060");
+
+}
+
+.integra{
+    background-image: url("https://img.freepik.com/fotos-gratis/pessoas-arrecadando-doacoes-de-alimentos-tiro-medio_23-2149182020.jpg?t=st=1732481963~exp=1732485563~hmac=f5fa972ed4ebaec206beeecb795149a16e38a8c0842733834506cf44c71b3dd5&w=1060");
+ 
+}
+
+
+
+.importancia_projetos{
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+
+.titulo{
+    margin-bottom: 5%;
+}
+
+.fotoimg{
+    margin-bottom: 10%;
+}
+
+.texto{
+    margin-top: 10%;
 }
