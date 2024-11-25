@@ -1,5 +1,37 @@
-.breadcumb-area{
-    background-image: url("https://img.freepik.com/fotos-gratis/correntes-de-papel-coloridas-ainda-vida_23-2149254025.jpg?t=st=1732482017~exp=1732485617~hmac=117fe9c3202b0874b26b20458d021e67820f2519f88a3adab5c73ec2ffa202a3&w=1060")
+.breadcumb-area {
+    padding: 150px 0px;
+    background-image: url("https://img.freepik.com/fotos-gratis/dia-mundial-do-meio-ambiente-jovens-de-alto-angulo_23-2149343474.jpg?t=st=1732577483~exp=1732581083~hmac=a2bb9db73602a8bfaa2148458eee87b3578dbf2f727c8ddf002ca0dbe44f1114&w=1060");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.breadcumb-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.breadcumb-area * {
+    position: relative; 
+    z-index: 2;
+}
+.widget > p{
+    color: #fff;
+}
+
+.contato{
+    color: #fff;
+}
+
+.witrfm_area {
+    background-image: none;
 }
 
 .juntos{
@@ -40,4 +72,16 @@
 
 .texto{
     margin-top: 10%;
+}
+
+.widget > p{
+    color: #fff;
+}
+
+.contato{
+    color: #fff;
+}
+
+.witrfm_area {
+    background-image: none;
 }
