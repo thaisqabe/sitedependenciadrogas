@@ -1,0 +1,74 @@
+.breadcumb-area{
+    background-image: url('../images/banner_obras.jpg');
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+ }
+
+.album{
+    width: auto;
+    height: 400px;
+}
+
+.team_o_icons{
+    margin-top: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.witr_team_section{
+    background-color: rgb(255, 255, 255);
+}
+
+.team_o_icons ul li a{
+    width: 200px;
+}
+
+.textobras{
+    text-align: center;
+}
+
+.sectionobras{
+    padding: 5%;
+}
+
+.solutech_about_area.choose_page{
+    padding: 0px 0px 90px;
+}
+
+.margintitulo{
+    padding: 2%;
+}
+
+.imglivro{
+    height: 500px;
+    width: auto;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.titulolivro{
+    font-size: 25px;
+}
+
+.bibliografiafilmes{
+    text-align: left;
+}
+
+.margin_p_bibliofrafia{
+    margin-bottom: 0rem;    
+}
+
+/*css footer*/
+.widget > p{
+    color: #fff;
+}
+
+.contato{
+    color: #fff;
+}
+
+.witrfm_area {
+    background-image: none;
+}
