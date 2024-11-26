@@ -4,9 +4,12 @@
 paleta{
     color: #34623f;
     color: #1e2f23;
-    color: #192bc2;
+    color: #1d267a;
 
 }
+
+
+
 
 
 a{
@@ -7389,29 +7392,27 @@ p.form-messege{
      color: #fff;
      border-color: #0c5adb;
 }
-/* .no-logo-sr .creative_search_icon {
-     */
-    /* position: absolute;
-     */
-    /* right: 19%;
-     */
-    /* top: 50%;
-     */
-    /* */
-    /* transform: translateY(-50%);
-     */
-    /* z-index: 999;
-     */
-    /* 
+ .no-logo-sr .creative_search_icon {
+     
+    position: absolute;
+     
+     right: 19%;
+    
+     top: 50%;
+  
+    transform: translateY(-50%);
+    
+    z-index: 999;
+     
 }
- */
-/* .no-logo-sr .em-quearys-top.msin-menu-search .em-quearys-inner {
-     */
-    /* top: 70px;
-     */
-    /* 
+ 
+ .no-logo-sr .em-quearys-top.msin-menu-search .em-quearys-inner {
+     
+     top: 70px;
+    
+    
 }
- */
+
  .no-logo-sr .solutech_menu ul {
      text-align: center;
 }
@@ -7430,9 +7431,9 @@ p.form-messege{
      position: relative;
 }
  .solutech_nav_area {
-     background: #FAA80F none repeat scroll 0% 0;
-    /* box-shadow: 0 0 65px 0 #00000008;
-     */
+    background-color: #000;
+     box-shadow: 0 0 65px 0 #00000008;
+     
      padding-right: 200px;
      padding-left: 200px;
 }
@@ -12542,3 +12543,130 @@ p.form-messege{
  .solutech_pricing2_area.choose_page {
      padding: 0px 0px 70px;
 }
+
+/* footer */
+
+.widget > p{
+    color: #fff;
+}
+
+.contato, .textwidget{
+    color: #fff;
+}
+
+.witrfm_area {
+    background-image: none;
+}
+.footer-middle{
+    padding-bottom: 0;
+}
+
+.listas-container {
+  display: flex; /* Coloca os elementos lado a lado */
+  gap: 8%; /* Espaço entre as listas */
+}
+
+@media (max-width: 768px) {
+    .listas-container {
+      flex-direction: column; /* Empilha as listas verticalmente em telas menores */
+      align-items: center; /* Centraliza as listas */
+}
+}
+
+/* banner */
+
+.breadcumb-area {
+    padding: 150px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.breadcumb-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.breadcumb-area * {
+    position: relative; 
+    z-index: 2;
+}
+
+.header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    z-index: 1030; /* Para garantir que o menu fique sobreposto */
+  }
+  
+  /* Alterações no texto do menu */
+  .navbar-brand {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    color: #555; /* Cor padrão */
+    transition: all 0.3s ease;
+  }
+  
+  .header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    z-index: 1030;
+  }
+  .navbar{
+    background-color: #27272b;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: white;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: black; 
+  }
+  
+  /* Responsividade */
+  @media (max-width: 991px) {
+    .navbar-brand {
+      font-size: 1.25rem;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  /* Responsividade */
+  @media (max-width: 991px) {
+    .navbar-brand {
+      font-size: 1.25rem;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 10px;
+      text-align: center;
+    }
+  }

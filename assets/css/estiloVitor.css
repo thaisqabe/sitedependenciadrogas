@@ -1,27 +1,8 @@
 .breadcumb-area {
-    padding: 150px 0px;
     background-image: url(../imgcracolandia/cracolandia.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+ 
 }
 
-.breadcumb-area::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); 
-    z-index: 1;
-}
-
-.breadcumb-area * {
-    position: relative; 
-    z-index: 2;
-}
 
 .solutech_about_area.choose {
     padding: 100px 0px 0px;
@@ -32,26 +13,7 @@
     margin-right: auto;
 }
 
-.swiper-wrapper{
-    background-color: #fff;
-}
 
-.widget > p{
-    color: #fff;
-}
-
-.contato{
-    color: #fff;
-}
-
-.witrfm_area {
-    background-image: none;
-}
-
-.titulo{
-    color: #fff;
-    text-transform: uppercase;
-}
 
 .logo a:hover {
     color: #fff;

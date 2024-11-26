@@ -22,17 +22,7 @@
     position: relative; 
     z-index: 2;
 }
-.widget > p{
-    color: #fff;
-}
 
-.contato{
-    color: #fff;
-}
-
-.witrfm_area {
-    background-image: none;
-}
 .juntos{
     background-image: url("https://img.freepik.com/fotos-premium/vista-traseira-do-grupo-de-alunos_171337-80487.jpg?w=1060");
     padding: 20%;
@@ -74,18 +64,8 @@
     margin-top: 10%;
 }
 
-.widget > p{
-    color: #fff;
+@media(max-width: 990px){
+    .fotoimg, .colimg{
+        display: none;
+    }
 }
-
-.contato{
-    color: #fff;
-}
-
-.footer-middle {
-    background-image: none;
-}
-
-.witrfm_area {
-    background-image:none;
-}  
