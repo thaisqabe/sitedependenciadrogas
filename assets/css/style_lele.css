@@ -33,9 +33,9 @@
 .witrfm_area {
     background-image: none;
 }
-
 .juntos{
     background-image: url("https://img.freepik.com/fotos-premium/vista-traseira-do-grupo-de-alunos_171337-80487.jpg?w=1060");
+    padding: 20%;
 
 }
 
@@ -82,6 +82,6 @@
     color: #fff;
 }
 
-.witrfm_area {
-    background-image: none;
+.footer-middle {
+    background-image: none;
 }
