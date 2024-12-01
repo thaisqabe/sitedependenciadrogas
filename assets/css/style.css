@@ -5,7 +5,6 @@ paleta{
     color: #34623f;
     color: #1e2f23;
     color: #1d267a;
-
 }
 
 
@@ -12611,6 +12610,10 @@ p.form-messege{
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+
+  .navbar-brand:hover{
+    color: #1E90FF;
+  }
   
   .navbar-nav .nav-link {
     font-size: 1rem;
@@ -12619,6 +12622,10 @@ p.form-messege{
     padding: 10px 15px;
     color: #555; /* Cor padrão */
     transition: all 0.3s ease;
+  }
+
+  .navbar-nav:hover .nav-link:hover {
+    color: #1E90FF;
   }
   
   .header {
@@ -12641,6 +12648,10 @@ p.form-messege{
     font-weight: 500;
     padding: 10px 15px;
     color: white;
+  }
+
+  .navbar-toggler{
+    background-color: #FFF;
   }
   
   .navbar-nav .nav-link:hover,
@@ -12668,5 +12679,6 @@ p.form-messege{
     .navbar-nav .nav-link {
       padding: 10px;
       text-align: center;
+      
     }
   }
