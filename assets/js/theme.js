@@ -698,3 +698,15 @@
 
 
 
+// Obtém a URL atual
+const currentPage = window.location.pathname.split("/").pop();
+
+// Seleciona todos os links do menu
+const navLinks = document.querySelectorAll(".nav-link");
+
+// Verifica qual link corresponde à URL atual
+navLinks.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+        link.classList.add("active");
+    }
+});
