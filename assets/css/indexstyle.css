@@ -149,3 +149,9 @@
     
 }
 
+/* tira o cantinho branco do banner */
+.swiper-container {
+  margin: 0;
+  padding: 0;
+  width: 100vw; 
+}

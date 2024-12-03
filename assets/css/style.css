@@ -12658,7 +12658,8 @@ p.form-messege{
 
 
   /* Responsividade */
-   @media (max-width: 991px) {
+
+   @media (max-width: 1080px) {
     .navbar-brand {
       font-size: 1.25rem;
     }
@@ -12666,19 +12667,19 @@ p.form-messege{
     .navbar-nav .nav-link {
       padding: 10px;
       text-align: center;
-    }
-  } 
-  /* Responsividade */
-   @media (max-width: 991px) {
-    .navbar-brand {
-      font-size: 1.25rem;
-    }
-  
-    .navbar-nav .nav-link {
-      padding: 10px;
-      text-align: center;
-      
+      font-size: 0.85rem;
     }
    }
 
+   @media(max-width:400px){
+    .navbar-brand{
+        font-size: 0.8rem;
+    }
+   }
+
+   @media(max-width:320px){
+    .navbar-brand{
+        font-size: 0.5rem;
+    }
+   }
 

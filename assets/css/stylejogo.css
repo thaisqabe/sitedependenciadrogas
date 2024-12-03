@@ -1,0 +1,68 @@
+.containerjogo{
+    padding: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.tituloj{
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+
+#status-bars {
+    margin-bottom: 20px;
+}
+
+.status {
+    margin: 10px 0;
+}
+
+.bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar div {
+    height: 100%;
+    border-radius: 10px;
+}
+
+#mental-bar {
+    width: 100%;
+    background-color: #4caf50;
+}
+
+#physical-bar {
+    width: 100%;
+    background-color: #f32121;
+}
+
+#support-bar {
+    width: 100%;
+    background-color: #ff9800;
+}
+
+#situation {
+    margin: 20px 0;
+    font-size: 1.3rem;
+    color: #444;
+}
+
+#choices button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+#choices button:hover {
+    background-color: #0056b3;
+}
