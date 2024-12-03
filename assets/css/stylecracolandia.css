@@ -34,3 +34,26 @@
     margin-right: 17.5%;
     text-align: center;
 }
+
+.witr_progress-style2 .witr_percent {
+    right: -10%;
+}
+
+@media (min-width: 768px) {
+    .col-md-7 {
+         width:100%; 
+    }
+}
+
+@media (max-width: 490px) {
+    .witr_progress-style2 .witr_percent {
+        right: -25%;
+    }
+}
+
+@media (max-width: 375px) {
+    .witr_progress-style2 .witr_percent {
+        right: -70px;
+        top: 12px;
+    }
+}
