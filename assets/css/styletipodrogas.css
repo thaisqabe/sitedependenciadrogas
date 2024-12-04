@@ -295,3 +295,53 @@
 .espacofim{
   margin-bottom: 5%;
 }
+
+
+
+
+/* pag realidade aumentada */
+/* Animação para o efeito embriaguez */
+@keyframes drunk-blur {
+  0% { transform: translate(0, 0); filter: blur(0px) saturate(100%); }
+  25% { transform: translate(-5px, 3px); filter: blur(2px) saturate(120%); }
+  50% { transform: translate(5px, -3px); filter: blur(3px) saturate(150%); }
+  75% { transform: translate(-3px, -5px); filter: blur(2px) saturate(130%); }
+  100% { transform: translate(0, 0); filter: blur(0px) saturate(100%); }
+}
+
+.drunk-effect {
+  animation: drunk-blur 1.5s infinite ease-in-out; /* Repetição infinita */
+}
+
+/* Responsividade */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: white;
+}
+
+video {
+  max-width: 100%;
+  max-height: 80vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  video {
+      max-width: 95%;
+      max-height: 70vh;
+  }
+}
+
+@media (max-width: 480px) {
+  video {
+      max-width: 100%;
+      max-height: 60vh;
+  }
+}
