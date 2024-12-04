@@ -133,7 +133,7 @@
 }
   
 .effect {
-    animation: shake 0.8s infinite linear, blur 1.4s infinite ease-in-out;
+    animation: shake 0.3s infinite linear, blur 1.4s infinite ease-in-out;
   }
 
   @media (max-width: 767px) {
