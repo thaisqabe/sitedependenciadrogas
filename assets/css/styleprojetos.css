@@ -24,23 +24,23 @@
 }
 
 .juntos{
-    background-image: url("https://img.freepik.com/fotos-premium/vista-traseira-do-grupo-de-alunos_171337-80487.jpg?w=1060");
+    background-image: url('../images/estudantes.jpg');
     padding: 20%;
 
 }
 
 .heloisa{
-    background-image: url("https://img.freepik.com/fotos-gratis/empresarios-e-mulheres-de-negocios-asiaticos-se-reunindo-para-debater-ideias-sobre-o-aplicativo-de-planejamento-de-web-design-criativo-e-desenvolver-um-layout-de-modelo-para-projeto-de-telefone-celular-trabalhando-juntos-em-um-pequeno-escritorio_7861-2682.jpg?t=st=1732482642~exp=1732486242~hmac=562257e817d4465a0a1ecc1b6ce2488df8ff552a9da503f4af5c213722f8afbb&w=1380");
+    background-image: url('../images/mesa.jpg');
 
 }
 
 .pronasci{
-    background-image: url("https://img.freepik.com/fotos-gratis/foto-recortada-da-equipe-de-jovens-amigos-multietnicas_171337-18230.jpg?t=st=1732481837~exp=1732485437~hmac=f57c40bbd0549f11a29e1a5afb5ad0b82c39f64baf693fdb9d56ad582482393f&w=1060");
+    background-image: url('../images/maos.jpg');
 
 }
 
 .integra{
-    background-image: url("https://img.freepik.com/fotos-gratis/pessoas-arrecadando-doacoes-de-alimentos-tiro-medio_23-2149182020.jpg?t=st=1732481963~exp=1732485563~hmac=f5fa972ed4ebaec206beeecb795149a16e38a8c0842733834506cf44c71b3dd5&w=1060");
+    background-image: url('../images/moca.jpg');
  
 }
 

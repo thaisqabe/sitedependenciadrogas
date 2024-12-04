@@ -2,8 +2,9 @@
     background-image: url('../images/banner_obras.jpg');
     width: 100%;
     height: auto;
-    object-fit: contain;
- }
+    object-fit: contain; 
+    background-color: none;   
+}
 
 .album{
     width: auto;
@@ -60,3 +61,10 @@
     margin-bottom: 0rem;    
 }
 
+.slick-next{
+    right: 10px;
+}
+
+.slick-prev{
+    left: 10px;
+}
